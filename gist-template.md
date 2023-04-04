@@ -1,11 +1,12 @@
 # Regex Tutorial: Email
 
-Introductory paragraph (replace this with your text)
+A regular expression, also known as  regex, is a sequence of characters that specifies a match patttern in a string. It's two most common use cases include the validation of user generated input adn to search through a large body of text, such as a find and replace operation in a document.
 
 ## Summary
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
+const emailValidation = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-])
 ## Table of Contents
 
 - [Anchors](#anchors)
